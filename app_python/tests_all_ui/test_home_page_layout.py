@@ -6,7 +6,7 @@ Created on Wed Jan 25 13:42:06 2023
 """
 
 from playwright.sync_api import Playwright, sync_playwright, expect
-from pom.home_page_elements import HomePage
+from ..pom.home_page_elements import HomePage
 import pytest
 
 @pytest.mark.homepagebody

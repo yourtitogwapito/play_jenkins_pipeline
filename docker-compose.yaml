@@ -22,7 +22,7 @@ services:
   pythonplay:
     build: 
       context: .app_python
-    image: ferdzcanapi/play_playwright
+    image: ferdzcanapi/app_python
     ports:
       -8888:8888
 

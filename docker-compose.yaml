@@ -24,7 +24,7 @@ services:
       context: .app_python
     image: ferdzcanapi/app_python
     ports:
-      -8888:8888
+      - "8888:8888"
 
 
   db:

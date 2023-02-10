@@ -22,6 +22,7 @@ services:
   pythonplay:
     build: ./app_python
     image: ferdzcanapi/app_python
+    container_name: app_python
     ports:
       - "8888:8888"
 

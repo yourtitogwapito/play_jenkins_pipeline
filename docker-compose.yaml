@@ -6,20 +6,3 @@ services:
     container_name: app_python
     ports:
       - "8888:8888"
-
-
-  db:
-    image: postgres:13
-    hostname: postgresql
-    container_name: postgresql
-    environment:
-      POSTGRES_USER: sonar
-      POSTGRES_PASSWORD: sonar
-      POSTGRES_DB: sonar
-    volumes:
-      - postgresql:/var/lib/postgresql
-      - postgresql_data:/var/lib/postgresql/data
-
-volumes:
-  postgresql:
-  postgresql_data:
